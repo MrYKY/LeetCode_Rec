@@ -82,26 +82,32 @@ private:
 };
 
 /*
-贪心算法
+贪心算法求无重叠区间
+People tend to like who likes them.That is true because I have faced this situation this time.
+算法的实现并不难，难点还是在于如何想到这一点。
 */
 class Solution1 {
 public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
-        if(intervals.size()==0){
+        int intervalNum = intervals.size();
+        int remainIntervalNum = 0;
+        if(intervalNum==0||intervalNum==1){
             return 0;
         }
-        sort(intervals.begin(), intervals.end(), [](vector<int>& a, vector<int>& b){
-            return a[1]<b[1];
-        });
-        int eraseNum = 0;
-        int preEnd = intervals[0][1];
-        for(int i = 1;i<intervals.size();++i){
-            if(intervals[i][0]<preEnd){
-                eraseNum++;
-            }else{
-                preEnd = intervals[i][1];
+        remainIntervalNum = 1;
+        sort(intervals.begin(), intervals.end(), [](vector<int>& a, vector<int>& b)
+        {return a[1] < b[1];});
+        int j = 0;
+        for(int i = 0;i<intervalNum;){
+            for(j = i+1;j<intervalNum;++j){
+                    if(intervals[j][0]>=intervals[i][1]){
+                        remainIntervalNum++;
+                        i = j;
+                        break;
+                    }
+                }
+            if(j==intervalNum) break;
             }
+        return intervalNum - remainIntervalNum;
         }
-        return eraseNum;
-    }
-};
+    };
