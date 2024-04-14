@@ -1,2 +1,3 @@
-# LeetCode_Rec
- LeetCode_Rec
+# LeetCode刷题记录
+在经历了一次完美世界的笔试之后，我无奈地发现果然还是要刷leetcode的，所以，刷呗。
+这个项目就记录了我的刷题过程。
