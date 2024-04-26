@@ -2,7 +2,9 @@
   "cmake.configureOnOpen": true,
   "files.associations": {
     "vector": "cpp",
-    "queue": "cpp"
+    "queue": "cpp",
+    "format": "cpp",
+    "xstring": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
