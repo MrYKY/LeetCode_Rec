@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.11">
   <diagram name="第 1 页" id="Wgpo2z5KQU_UvKr207dG">
-    <mxGraphModel dx="1032" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1583" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,15 +277,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-78" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.3;endAngle=0.1;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="162.5" y="720" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-79" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.3;endAngle=0.1;strokeWidth=1;rotation=105;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="530" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-80" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.arc;startAngle=0.3;endAngle=0.1;strokeWidth=1;rotation=-135;" vertex="1" parent="1">
-          <mxGeometry x="497.5" y="720" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-81" value="Listen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="790" y="640" width="80" height="40" as="geometry" />
         </mxCell>
@@ -354,6 +345,18 @@
         </mxCell>
         <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-127" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=50;gradientDirection=east;gradientColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="880" y="420" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-128" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;rotation=120;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="540" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-129" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;rotation=-151;" vertex="1" parent="1">
+          <mxGeometry x="510.5" y="700" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-130" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.lean_mapping.physical_pull;pointerEvents=1;rotation=-195;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="700" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZnC7ItmRe5CXQBOQ3J_-131" value="LLM holds its own context while Duplex Model has a context of 3 round max." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Times New Roman;fontStyle=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
