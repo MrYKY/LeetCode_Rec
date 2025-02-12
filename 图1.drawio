@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.11">
   <diagram name="第 1 页" id="Wgpo2z5KQU_UvKr207dG">
-    <mxGraphModel dx="1187" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1079" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -474,11 +474,11 @@
         <mxCell id="zUQLbNIpwUs590nHy6il-92" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-duotone-vol-3/256/robot-duotone-128.png" vertex="1" parent="1">
           <mxGeometry x="100" y="970" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zUQLbNIpwUs590nHy6il-93" value="With Duplex Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="zUQLbNIpwUs590nHy6il-93" value="With Duplex Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="425" y="1110" width="155" height="17.99" as="geometry" />
         </mxCell>
-        <mxCell id="zUQLbNIpwUs590nHy6il-94" value="Without Duplex Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="422.5" y="1241" width="155" height="17.99" as="geometry" />
+        <mxCell id="zUQLbNIpwUs590nHy6il-94" value="Without Duplex Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="1250" width="155" height="17.99" as="geometry" />
         </mxCell>
         <mxCell id="zUQLbNIpwUs590nHy6il-95" value="你可以去杭州西湖赏秋景、桂林阳朔漓江泛舟，或者去成..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontFamily=Times New Roman;align=left;strokeWidth=0.5;" vertex="1" parent="1">
           <mxGeometry x="550" y="980" width="240" height="20" as="geometry" />
